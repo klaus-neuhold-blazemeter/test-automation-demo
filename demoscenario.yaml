@@ -3,7 +3,7 @@
 reporting:
 - module: passfail
   criteria:
-  - avg-rt of Select flight>1000ms for 3s, stop as failed
+  - avg-rt of Select flight>1ms for 3s, stop as failed
   - fail of Confirmation>0%, stop as failed
 
 
