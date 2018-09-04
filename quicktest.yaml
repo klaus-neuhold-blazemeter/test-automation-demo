@@ -1,0 +1,12 @@
+# What to test
+scenarios:
+  quick-test:
+    requests:
+    - http://blazedemo.com
+
+# How to run the test
+execution:
+- concurrency: 100
+  ramp-up: 15s
+  hold-for: 1m
+  scenario: quick-test
