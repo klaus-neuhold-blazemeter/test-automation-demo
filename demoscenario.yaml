@@ -43,7 +43,7 @@ execution:
 - executor: jmeter
   scenario: Demo Scenario
   concurrency: 10
-  ramp-up: 5s
+  ramp-up: 10s
   hold-for: 15s
 
 # When to fail the test
